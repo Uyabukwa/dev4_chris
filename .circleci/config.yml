@@ -1,0 +1,26 @@
+Python 
+def input_length():
+L= int (input("Enter the length"))
+return L
+
+
+def input_width():
+W= int (input("Enter the width"))
+return W
+
+
+def Calcu_perimeter(ln,wi):
+return (ln+wi)*2
+
+
+def calcu_Area(n,d):
+return n*d
+
+if __name__ == '__main__':
+p= input_length()
+k=input_width()
+z=Calcu_perimeter(p,k)
+s=calcu_Area(p,k)
+print("The perimeter is :", z)
+print("The area is :", s)
+
