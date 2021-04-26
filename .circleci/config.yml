@@ -1,4 +1,4 @@
-Python 
+
 def input_length():
 L= int (input("Enter the length"))
 return L
