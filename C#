@@ -1,0 +1,29 @@
+   java
+import java.util.Scanner;
+public class RECTANGLE {
+     static int input_Integer(){
+         System.out.println("Please enter number");
+         Scanner Scan = new Scanner(System.in);
+         int num1= Scan.nextInt();
+         return num1;
+     }
+     static int input_weith(){
+         System.out.println("Please enter number");
+         Scanner Scan = new Scanner(System.in);
+         int num2= Scan.nextInt();
+         return num2;
+     }
+   
+    public static void main(String[] args ) {
+        int vl= input_Integer();
+        int v2= input_weith();
+        int sum=(vl+v2)*2;
+                
+               
+        int result=vl*v2;
+        System.out.println("The value of  the perimeter is;" + sum);
+        System.out.println("The value of the area is;" +result );
+    }
+   
+    }
+    
