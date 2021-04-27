@@ -1,0 +1,46 @@
+using System;
+
+namespace ConsoleApplication
+{
+  class code
+   {
+     static input_length()
+    {
+       Console.writeLine("Enter the length ");
+       int le= Convert.ToInt32(Console.RadLine());
+       return le;
+     }
+   static input_width()
+   {
+    Console.writeLine("Enter the width ");
+       int di= Convert.ToInt32(Console.RadLine());
+       return di;
+    }
+   static int cal_area( int le, int di)
+   {
+    int area = le*di;
+    return area;
+   }
+  static int perimeter( int len, int wid)
+  {
+  int perimeter= (len+wid)*2;
+   return perimeter;
+  }
+  static void Main(string[]args){
+   int gth=input_length();
+   int dth= input_width();
+   int area= cal_area( gth, dth);
+   int perimeter= perimeter( gth, dth);
+   Display (area ,perimeter);
+   Console.Readline();
+   }
+  }
+}
+
+
+
+
+
+
+
+
